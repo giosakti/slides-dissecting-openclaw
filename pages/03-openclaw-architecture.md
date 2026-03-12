@@ -46,7 +46,7 @@ layout: section
 
 ---
 
-# The Gateway is the <span class="accent">Control Plane</span>
+# The Gateway <span class="accent">Runs Everything</span>
 
 <div class="grid grid-cols-3 gap-6 mt-8">
   <div>

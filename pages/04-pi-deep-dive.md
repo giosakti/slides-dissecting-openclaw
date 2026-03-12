@@ -28,43 +28,24 @@ layout: section
 
 ---
 
-# Pi's Three-Layer Architecture
+# Pi's Four-Layer Architecture
 
-<div class="mt-6 flex flex-col gap-3 max-w-2xl mx-auto">
-  <div class="p-4 border-2 border-teal-300 rounded-lg bg-teal-50">
-    <div class="flex justify-between items-center">
-      <div>
-        <p class="text-lg font-bold accent">AgentSession</p>
-        <p class="text-sm opacity-50">pi-coding-agent</p>
-      </div>
-      <div class="text-xs opacity-40 text-right">
-        Session mgmt · Compaction<br/>Extensions · Slash commands
-      </div>
-    </div>
+<div class="mt-4 flex flex-col max-w-2xl mx-auto rounded-lg overflow-hidden border border-gray-200">
+  <div class="px-4 py-2.5 bg-gray-50 border-b border-gray-200 flex justify-between items-center">
+    <p class="font-bold">Terminal UI <span class="opacity-40 font-normal text-sm ml-1">pi-tui</span></p>
+    <p class="text-xs opacity-40">Markdown rendering · Editor · Autocomplete</p>
   </div>
-  <div class="text-center text-xl opacity-30">↕</div>
-  <div class="p-4 border-2 border-gray-800 rounded-lg bg-gray-50">
-    <div class="flex justify-between items-center">
-      <div>
-        <p class="text-lg font-bold">Agent Core</p>
-        <p class="text-sm opacity-50">pi-agent-core</p>
-      </div>
-      <div class="text-xs opacity-40 text-right">
-        Agent loop · Streaming<br/>Tool execution · Steering
-      </div>
-    </div>
+  <div class="px-4 py-2.5 bg-teal-50 border-b border-teal-200 flex justify-between items-center">
+    <p class="font-bold accent">Agent Session <span class="opacity-40 font-normal text-sm ml-1">pi-coding-agent</span></p>
+    <p class="text-xs opacity-40">Sessions · Compaction · Skills · Extensions</p>
   </div>
-  <div class="text-center text-xl opacity-30">↕</div>
-  <div class="p-4 border-2 border-gray-300 rounded-lg bg-gray-50">
-    <div class="flex justify-between items-center">
-      <div>
-        <p class="text-lg font-bold">Unified LLM API</p>
-        <p class="text-sm opacity-50">pi-ai</p>
-      </div>
-      <div class="text-xs opacity-40 text-right">
-        20+ providers · Token accounting<br/>Streaming · Mid-session model swap
-      </div>
-    </div>
+  <div class="px-4 py-2.5 bg-gray-100 border-b border-gray-200 flex justify-between items-center">
+    <p class="font-bold">Agent Core <span class="opacity-40 font-normal text-sm ml-1">pi-agent-core</span></p>
+    <p class="text-xs opacity-40">Agent loop · Tool execution · Steering</p>
+  </div>
+  <div class="px-4 py-2.5 bg-gray-50 flex justify-between items-center">
+    <p class="font-bold">Unified LLM API <span class="opacity-40 font-normal text-sm ml-1">pi-ai</span></p>
+    <p class="text-xs opacity-40">2000+ models · Token accounting · Streaming</p>
   </div>
 </div>
 

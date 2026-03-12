@@ -94,10 +94,10 @@ layout: center
   <div>
     <p class="text-sm font-bold uppercase tracking-wider opacity-40">OpenClaw today</p>
     <div class="mt-4 space-y-2">
-      <p><span class="text-2xl font-bold">200+</span> <span class="opacity-50">source files</span></p>
-      <p><span class="text-2xl font-bold">20+</span> <span class="opacity-50">messaging channels</span></p>
+      <p><span class="text-2xl font-bold">430K</span> <span class="opacity-50">lines of code</span></p>
+      <p><span class="text-2xl font-bold">19</span> <span class="opacity-50">messaging channels</span></p>
       <p><span class="text-2xl font-bold">5+</span> <span class="opacity-50">extension systems</span></p>
-      <p><span class="text-2xl font-bold">100+</span> <span class="opacity-50">community skills</span></p>
+      <p><span class="text-2xl font-bold">5,000+</span> <span class="opacity-50">community skills</span></p>
     </div>
     <p class="mt-4 text-sm opacity-40">Complexity grows fast — plugins, hooks, skills, subagents, MCP</p>
   </div>

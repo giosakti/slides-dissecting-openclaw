@@ -10,7 +10,7 @@ layout: center
   <div class="text-center">
     <p class="text-2xl font-bold accent">OpenClaw</p>
     <p class="opacity-60 mt-2">Full-featured, self-evolving agent</p>
-    <p class="mt-4 font-mono text-sm opacity-70">github.com/open-claw/open-claw</p>
+    <p class="mt-4 font-mono text-sm opacity-70">github.com/openclaw/openclaw</p>
   </div>
   <div class="text-center">
     <p class="text-2xl font-bold accent">Duragent</p>
@@ -42,4 +42,5 @@ layout: center
 <div class="text-center">
   <h1 class="!text-5xl">Thank You</h1>
   <p class="text-2xl mt-6 opacity-50">Questions?</p>
+  <p class="mt-8 font-mono text-sm opacity-40">github.com/giosakti/slides-dissecting-openclaw</p>
 </div>

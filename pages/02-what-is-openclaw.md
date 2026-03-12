@@ -2,7 +2,7 @@
 layout: section
 ---
 
-# What is <span class="accent">OpenClaw</span>?
+# Enter <span class="accent">OpenClaw</span>
 
 The fastest-growing open-source project in GitHub history
 
@@ -17,7 +17,7 @@ The fastest-growing open-source project in GitHub history
       <li>WhatsApp, Telegram, Slack, Discord, Signal, iMessage, and more</li>
       <li>One gateway, many channels</li>
       <li>Open source, MIT licensed</li>
-      <li><strong>250K+ GitHub stars</strong> in ~100 days, surpassing Linux and React</li>
+      <li><strong>300K+ GitHub stars</strong> — surpassing Linux and React as most-starred software project</li>
     </ul>
   </div>
   <div>

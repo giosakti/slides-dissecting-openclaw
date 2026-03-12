@@ -36,18 +36,18 @@ How OpenClaw rewrites itself at runtime
 
 # Three Layers of <span class="accent">Self-Evolution</span>
 
-<div class="flex flex-col gap-4 mt-6">
-  <div class="p-5 bg-teal-50 rounded-lg border-2 border-teal-300">
-    <p class="text-lg font-bold accent">Layer 3: ClawHub Marketplace</p>
-    <p class="text-sm opacity-60 mt-1">Community skills &amp; plugins — search + install at runtime</p>
+<div class="flex flex-col max-w-2xl mx-auto rounded-lg overflow-hidden border border-gray-200 mt-6">
+  <div class="px-4 py-2.5 bg-teal-50 border-b border-teal-200 flex justify-between items-center">
+    <p class="font-bold accent">Layer 3: ClawHub Marketplace</p>
+    <p class="text-xs opacity-40">Community skills &amp; plugins — search + install at runtime</p>
   </div>
-  <div class="p-5 bg-teal-50/60 rounded-lg border-2 border-teal-200">
-    <p class="text-lg font-bold accent">Layer 2: Skills System</p>
-    <p class="text-sm opacity-60 mt-1">Markdown-defined behaviors — discovery via system prompt, prompt injection</p>
+  <div class="px-4 py-2.5 bg-teal-50/60 border-b border-teal-200 flex justify-between items-center">
+    <p class="font-bold accent">Layer 2: Skills System</p>
+    <p class="text-xs opacity-40">Markdown behaviors — discovery via system prompt</p>
   </div>
-  <div class="p-5 bg-teal-50/30 rounded-lg border-2 border-teal-100">
-    <p class="text-lg font-bold accent">Layer 1: Plugin System</p>
-    <p class="text-sm opacity-60 mt-1">Dynamic loading — tools, hooks, routes — 24 lifecycle events</p>
+  <div class="px-4 py-2.5 bg-teal-50/30 flex justify-between items-center">
+    <p class="font-bold accent">Layer 1: Plugin System</p>
+    <p class="text-xs opacity-40">Dynamic loading — tools, hooks, routes — 24 lifecycle events</p>
   </div>
 </div>
 
@@ -165,19 +165,19 @@ requirements:
 
 # Layer 3: <span class="accent">ClawHub</span> — Community Marketplace
 
-<div class="flex flex-col gap-4 mt-6">
-  <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
+<div class="flex flex-col max-w-2xl mx-auto rounded-lg overflow-hidden border border-gray-200 mt-6">
+  <div class="px-4 py-2.5 bg-gray-50 border-b border-gray-200">
     <p><span class="opacity-50">User:</span> <em>"Help me deploy this to Kubernetes"</em></p>
   </div>
-  <div class="p-4 bg-teal-50 rounded-lg border border-teal-200">
+  <div class="px-4 py-2.5 bg-teal-50 border-b border-teal-200">
     <p><span class="accent font-bold">Agent:</span> I don't have k8s skills. Let me search...</p>
-    <p class="mt-1 font-mono text-sm opacity-70">→ clawhub search "kubernetes deploy"</p>
+    <p class="font-mono text-sm opacity-70">→ clawhub search "kubernetes deploy"</p>
   </div>
-  <div class="p-4 bg-teal-50 rounded-lg border border-teal-200">
+  <div class="px-4 py-2.5 bg-teal-50 border-b border-teal-200">
     <p><span class="accent font-bold">Agent:</span> Found a match. Installing...</p>
-    <p class="mt-1 font-mono text-sm opacity-70">→ clawhub install kubernetes-deploy</p>
+    <p class="font-mono text-sm opacity-70">→ clawhub install kubernetes-deploy</p>
   </div>
-  <div class="p-4 bg-green-50 rounded-lg border border-green-200">
+  <div class="px-4 py-2.5 bg-green-50">
     <p><span class="accent font-bold">Agent:</span> Done! Deploying your service now.</p>
   </div>
 </div>
@@ -224,31 +224,28 @@ requirements:
 
 <div class="grid grid-cols-2 gap-8 mt-4">
   <div>
-    <div class="text-sm opacity-50 mb-2">update-startup.ts — canary deployment</div>
+    <div class="text-sm opacity-50 mb-2">Two ways to self-upgrade</div>
 
-```typescript
-function shouldUpdate(agentId: string): boolean {
-  const bucket = hash(agentId) % 100
-  const hoursSinceRelease = getHoursSince(release)
+```bash
+# Manual — one command
+openclaw update
 
-  // Staggered rollout
-  if (hoursSinceRelease < 6) return bucket < 5   // 5%
-  if (hoursSinceRelease < 12) return bucket < 25  // 25%
-  if (hoursSinceRelease < 24) return bucket < 50  // 50%
-  return true                                     // 100%
-}
+# Automatic — auto-updater skill
+# Sets up a daily cron job that runs:
+openclaw update
+clawhub update --all
 ```
 
   </div>
   <div class="flex flex-col justify-center">
-    <p class="text-lg font-bold">Staggered rollout</p>
+    <p class="text-lg font-bold">What happens under the hood</p>
     <div class="mt-4 space-y-2">
-      <p><span class="accent font-bold">6h</span> <span class="opacity-50">— 5% of agents</span></p>
-      <p><span class="accent font-bold">12h</span> <span class="opacity-50">— 25% of agents</span></p>
-      <p><span class="accent font-bold">24h</span> <span class="opacity-50">— 50% of agents</span></p>
-      <p><span class="accent font-bold">24h+</span> <span class="opacity-50">— full rollout</span></p>
+      <p><span class="accent font-bold">Pull</span> <span class="opacity-50">— fetch latest version</span></p>
+      <p><span class="accent font-bold">Build</span> <span class="opacity-50">— install deps, rebuild</span></p>
+      <p><span class="accent font-bold">Doctor</span> <span class="opacity-50">— validate the installation</span></p>
+      <p><span class="accent font-bold">Restart</span> <span class="opacity-50">— gateway comes back up</span></p>
     </div>
-    <p class="mt-4 opacity-50">Same pattern Netflix and Google use for fleet upgrades</p>
+    <p class="mt-4 opacity-50">Config backup + auto-rollback if something breaks</p>
   </div>
 </div>
 
