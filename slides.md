@@ -16,7 +16,7 @@ fonts:
 <div class="flex flex-col justify-center h-full">
   <h1 class="!text-5xl !leading-tight">Dissecting<br/><span class="accent">OpenClaw</span></h1>
   <p class="text-xl mt-4 opacity-70">Under the Hood of a Self-Evolving AI Agent</p>
-  <p class="mt-8 text-sm opacity-40">Giovanni Sakti</p>
+  <p class="mt-8 text-sm opacity-40">Giovanni Sakti <span class="ml-2">@giosakti</span></p>
 </div>
 
 ---
