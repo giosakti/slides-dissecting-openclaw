@@ -4,6 +4,8 @@ layout: section
 
 # What is <span class="accent">OpenClaw</span>?
 
+The fastest-growing open-source project in GitHub history
+
 ---
 
 # A Personal AI Assistant You Self-Host
@@ -15,7 +17,7 @@ layout: section
       <li>WhatsApp, Telegram, Slack, Discord, Signal, iMessage, and more</li>
       <li>One gateway, many channels</li>
       <li>Open source, MIT licensed</li>
-      <li><strong>250K+ GitHub stars</strong> in ~100 days — surpassing Linux and React</li>
+      <li><strong>250K+ GitHub stars</strong> in ~100 days, surpassing Linux and React</li>
     </ul>
   </div>
   <div>
@@ -24,7 +26,7 @@ layout: section
     <p class="mt-1 opacity-60">Founder of PSPDFKit. Started as a personal playground.</p>
     <p class="mt-4 text-sm font-bold uppercase tracking-wider opacity-40">Powered by</p>
     <p class="text-lg mt-2"><strong>Pi</strong> by <strong>Mario Zechner</strong></p>
-    <p class="mt-1 opacity-60">Creator of libGDX. A radically minimal agent runtime.</p>
+    <p class="mt-1 opacity-60">A radically minimal agent runtime.</p>
   </div>
 </div>
 
@@ -38,7 +40,7 @@ layout: section
     <p class="dim text-sm">Already exists</p>
   </div>
   <div class="p-4 bg-gray-100 rounded-lg">
-    <p class="font-bold">MCP Tools for Google, Office, etc.</p>
+    <p class="font-bold">MCP Tools for Various Services</p>
     <p class="dim text-sm">Already exists</p>
   </div>
   <div class="p-4 bg-gray-100 rounded-lg">
@@ -58,16 +60,14 @@ layout: section
 # The Killer Feature
 
 <div class="mt-8">
-  <p class="text-3xl font-bold">Everything together<br/><span class="accent">+ self-evolution</span></p>
+  <p class="text-3xl font-bold">Everything together<br/><span class="accent">+ self-evolving</span> capability</p>
 </div>
 
 <div class="mt-8 text-lg">
 
 - **The combination** — all pieces work together seamlessly
 - **Onboarding** — `openclaw onboard` takes you from zero to running
-- **Self-evolution** — the agent writes its own plugins
+- **Self-evolution** — the agent writes its own extensions
 - **Self-upgrade** — the agent can upgrade itself
 
 </div>
-
-<p class="mt-6 opacity-50">The whole is greater than the sum of its parts</p>

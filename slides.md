@@ -6,6 +6,7 @@ info: |
 author: Giovanni Sakti
 keywords: openclaw,agentic,runtime,duragent
 transition: none
+colorSchema: light
 mdc: true
 fonts:
   sans: Space Grotesk
@@ -31,12 +32,12 @@ fonts:
   <div>
     <p class="text-sm font-bold uppercase tracking-wider opacity-40">Consultancy</p>
     <p class="text-xl font-bold mt-2">PT. GSN Alpha Digital</p>
-    <p class="opacity-60">Tech consultancy &amp; fractional engineering</p>
+    <p class="opacity-60">Fractional leadership &amp; Tech consultancy</p>
   </div>
   <div>
     <p class="text-sm font-bold uppercase tracking-wider opacity-40">Community</p>
-    <p class="text-xl font-bold mt-2 accent">idsw.dev</p>
-    <p class="opacity-60">Organizing tech events</p>
+    <p class="text-xl font-bold mt-2 accent">idsw.dev / perkodi.org</p>
+    <p class="opacity-60">Tech events / community organizer</p>
   </div>
 </div>
 
@@ -61,21 +62,13 @@ src: ./pages/05-self-evolving.md
 ---
 
 ---
-src: ./pages/06-lessons-learned.md
+src: ./pages/06-building-blocks.md
 ---
 
 ---
-src: ./pages/07-building-from-scratch.md
+src: ./pages/07-introducing-duragent.md
 ---
 
 ---
-src: ./pages/08-future-of-software.md
----
-
----
-src: ./pages/09-introducing-duragent.md
----
-
----
-src: ./pages/10-closing.md
+src: ./pages/08-closing.md
 ---
