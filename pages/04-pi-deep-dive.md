@@ -155,30 +155,3 @@ await activeSession.prompt(userMessage)   // Agent loop runs here
 ```
 
 <p class="mt-4 opacity-50">Auth failover, context overflow retry, model fallback — all handled</p>
-
----
-
-# Why This Matters to <span class="accent">You</span>
-
-<div class="mt-8 text-xl">
-
-This is the layer that decides:
-
-</div>
-
-<div class="grid grid-cols-3 gap-6 mt-6">
-  <div class="p-4 bg-red-50 rounded-lg border border-red-200">
-    <p class="font-bold">What tools can run</p>
-    <p class="text-sm opacity-60">bash on your machine?</p>
-  </div>
-  <div class="p-4 bg-red-50 rounded-lg border border-red-200">
-    <p class="font-bold">What data is visible</p>
-    <p class="text-sm opacity-60">your files? your messages?</p>
-  </div>
-  <div class="p-4 bg-red-50 rounded-lg border border-red-200">
-    <p class="font-bold">Where replies go</p>
-    <p class="text-sm opacity-60">the right Slack channel?</p>
-  </div>
-</div>
-
-<p class="mt-6 text-lg opacity-60">If you don't understand this layer, you're trusting a black box with your data</p>
