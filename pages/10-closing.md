@@ -25,7 +25,7 @@ duragent chat --agent my-assistant
     <p class="text-xl"><span class="accent font-bold">2.</span> The magic isn't any single feature — it's <strong>the combination + self-evolution</strong> that makes OpenClaw work</p>
   </div>
   <div class="p-5 bg-teal-50 rounded-lg border border-teal-200">
-    <p class="text-xl"><span class="accent font-bold">3.</span> You only need <strong>6 building blocks</strong> to start — and 4 tools might be all an agent needs</p>
+    <p class="text-xl"><span class="accent font-bold">3.</span> You only need <strong>6 building blocks</strong> to start — and a handful of tools might be all an agent needs</p>
   </div>
 </div>
 

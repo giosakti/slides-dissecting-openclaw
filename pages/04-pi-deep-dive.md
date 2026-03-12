@@ -10,9 +10,9 @@ layout: section
 
 <div class="grid grid-cols-2 gap-12 mt-8">
   <div>
-    <p class="big-number !text-6xl">4</p>
-    <p class="text-xl font-bold mt-2">Tools</p>
-    <p class="opacity-50 mt-1">read, write, edit, bash</p>
+    <p class="big-number !text-6xl">7</p>
+    <p class="text-xl font-bold mt-2">Core Tools</p>
+    <p class="opacity-50 mt-1">read, write, edit, bash, glob, grep, think</p>
     <p class="opacity-50">That's it. Nothing else.</p>
   </div>
   <div>

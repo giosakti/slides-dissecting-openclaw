@@ -55,9 +55,19 @@ layout: center
   <p class="text-xl">But <strong>every integration is also an attack surface.</strong></p>
 </div>
 
-<div class="mt-4 p-4 bg-gray-900 text-white rounded-lg">
-  <p class="text-sm opacity-50 uppercase tracking-wider font-bold">Example</p>
-  <p class="text-lg mt-1">Your agent auto-replies to your boss with a draft that includes <span class="text-red-400 font-bold">confidential salary data</span> — because it had access to your Google Sheets and thought it was being helpful.</p>
+<div class="mt-4 grid grid-cols-3 gap-3">
+  <div class="p-3 bg-gray-900 text-white rounded-lg">
+    <p class="text-sm opacity-50 uppercase tracking-wider font-bold">Data Exfiltration</p>
+    <p class="text-sm mt-1">Agent leaks sensitive data to places it shouldn't go</p>
+  </div>
+  <div class="p-3 bg-gray-900 text-white rounded-lg">
+    <p class="text-sm opacity-50 uppercase tracking-wider font-bold">Prompt Injection</p>
+    <p class="text-sm mt-1">Malicious content in fetched pages hijacks agent behavior</p>
+  </div>
+  <div class="p-3 bg-gray-900 text-white rounded-lg">
+    <p class="text-sm opacity-50 uppercase tracking-wider font-bold">Context Poisoning</p>
+    <p class="text-sm mt-1">Tool outputs silently alter the agent's decision-making</p>
+  </div>
 </div>
 
 <p class="mt-4 text-lg"><span class="accent font-bold">More integrations = more useful = more risk</span></p>

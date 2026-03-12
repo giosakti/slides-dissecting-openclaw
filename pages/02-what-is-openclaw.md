@@ -15,6 +15,7 @@ layout: section
       <li>WhatsApp, Telegram, Slack, Discord, Signal, iMessage, and more</li>
       <li>One gateway, many channels</li>
       <li>Open source, MIT licensed</li>
+      <li><strong>250K+ GitHub stars</strong> in ~100 days — surpassing Linux and React</li>
     </ul>
   </div>
   <div>
