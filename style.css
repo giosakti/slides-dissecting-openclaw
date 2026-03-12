@@ -1,0 +1,61 @@
+:root {
+  --slidev-theme-primary: #0D9373;
+}
+
+.slidev-layout {
+  font-family: 'Space Grotesk', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1 {
+  color: #0F172A;
+  font-weight: 700;
+}
+
+h2 {
+  color: #0D9373;
+  font-weight: 600;
+}
+
+blockquote {
+  border-left: 4px solid #0D9373;
+  padding-left: 1em;
+  color: #555;
+  font-style: normal;
+}
+
+table {
+  font-size: 0.9em;
+}
+
+code {
+  font-size: 0.85em;
+}
+
+.big-number {
+  font-size: 3.5em;
+  font-weight: 800;
+  line-height: 1;
+  color: #0D9373;
+}
+
+.label {
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin-top: 0.25em;
+}
+
+.accent {
+  color: #0D9373;
+}
+
+.dim {
+  opacity: 0.5;
+}
+
+.highlight-box {
+  background: #0D9373;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  display: inline-block;
+}
